@@ -1,11 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2ccd70;
+    background-color: #ffffff;
     display: grid;
-    grid-template-areas: 'nav nav nav nav' 'header header header header' 'section1 section1 section1 section1' 'section2 section2 section2 section2' 'section3 section3 section3 section3' 'footer footer footer footer';
-    grid-template-rows: 50vh 25vh 20vh 20vh 20vh 20vh;
-    grid-template-columns: 100%;
+    grid-template-areas: "nav" "header" "section1" "section2" "section3" "footer";
+    grid-template-rows: 43% 19% 24% 15% 18% 13%;
 }
 
 .banner {
@@ -54,11 +53,12 @@ header {
 }
 
 .espaço1 {
-    text-align: center;
+    text-align: -webkit-center;
 }
 
 .icone2 {
-    border-radius: 50%;
+    border-radius: 100px;
+    width: 50px;
     background-color: #2ccd70;
 }
 
@@ -97,12 +97,60 @@ header {
 }
 
 .section2 {
-    grid-area: section1;
+    grid-area: section2;
     display: flex;
-    background-color: #e3e3e3;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
+    text-align: center;
 }
 
-.Parte4 {}
+.Parte4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.texto4 {
+    color: #aaaaaa
+}
+
+.Titulo4 {
+    font-size: 12px;
+}
+
+.imagenzinhas {
+    display: flex;
+    margin: 2px;
+}
+
+.section3 {
+    grid-area: section3;
+    display: flex;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto5 {
+    color: #aaaaaa;
+}
+
+.icone3 {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: #e3e3e3;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    color: #aaaaaa;
+}
